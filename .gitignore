@@ -32,7 +32,8 @@
 *.app
 
 # Executables
-playground
+app
+sandbox
 
 # SCons
 .sconsign.dblite
