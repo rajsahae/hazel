@@ -28,16 +28,14 @@
 *.lib
 
 # Executables
-*.exe
-*.out
-*.app
-
-# Executables
-app
-sandbox
+bin
+bin-int
 
 # SCons
 .sconsign.dblite
+
+# Make
+Makefile
 
 # ctags
 .tags

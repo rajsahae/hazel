@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -ex
+
+premake gmake
+make -j$(sysctl -n hw.ncpu)
+bin/Debug-macosx-x86_64/Sandbox/Sandbox
